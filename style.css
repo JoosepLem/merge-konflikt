@@ -19,3 +19,25 @@ img {
     border-width: 8px;
     border-color: black;
   }
+  table {
+    border: 1px solid red;
+    table-layout: fixed;
+    width: 100%;
+
+  }
+  th{
+    letter-spacing: 3px;
+  }
+thead th,
+tfoot th,
+tfoot td {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.5)
+  );
+  border: 3px solid red;
+}
+body {
+    background-color: coral;
+}
